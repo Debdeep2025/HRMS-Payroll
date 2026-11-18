@@ -1,25 +1,33 @@
 # CPUTEK Payroll Management
 
-A standalone frontend-only payroll management demo for CPUTEK Private Limited.
+Standalone frontend-only payroll management prototype for CPUTEK Private Limited.
 
-## Project scope
+## Client demo scope
+- Dashboard with payroll overview, attendance snapshot and pending approvals
+- Employee listing, filters, onboarding and employee profile tabs
+- Salary structure templates, earning/deduction/employer contribution tabs, CTC summary and assignment
+- Attendance month selection, employee grid and summary
+- Payroll setup, employee selection, data readiness and multi-step calculation flow
+- Payslip preview, reports and settings navigation
 
-This repository will contain a client-demonstration prototype based on the supplied CPUTEK Payroll MVP UI flow and visual references. It will use realistic sample data and interactive frontend state; no production payroll, banking, biometric, or backend integrations are included in this demo.
+## Stack
+- React 18
+- Vite
+- Lucide icons
+- Local sample data and frontend state only
 
-## Planned modules
+No production payroll calculations, banking, biometric attendance, database, or backend integrations are included.
 
-- Login and dashboard
-- Employee list, onboarding, and employee profiles
-- Salary structures and salary assignments
-- Attendance and leave overview
-- Monthly payroll setup, calculation, preview, and approval
-- Payslip preview and sample download
-- Reports and settings
+## Run locally
+```bash
+npm install
+npm run dev
+```
 
-## Design direction
+## Build
+```bash
+npm run build
+```
 
-Match the provided CPUTEK references: dark sidebar, yellow/gold accents, light content canvas, compact enterprise cards and tables, and consistent page layouts.
-
-## Development
-
-The application scaffold and implementation will be added on a dedicated feature branch. `main` is kept separate from feature development.
+## Design
+The interface follows the CPUTEK reference screenshots: dark sidebar, yellow/gold accents, light content canvas, compact enterprise cards and tables. The included SVG logo is a recreated vector approximation based on the logo visible in the provided screenshots; replace it with the company's original SVG/transparent PNG when supplied.
